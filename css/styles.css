@@ -1,0 +1,81 @@
+body {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    background: #070F11;
+    padding: 0;
+    margin: 0;
+}
+
+.space-1 {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.space-2 {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+.space-100 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.photo-1 {
+    background-image: url("Img/Image-1.png");
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.text-1 {
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.text-2 {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 94px;
+}
+
+.text-3 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+@media (max-width: 500px) {
+    .edit-2 {
+        display: none;
+    }
+
+    .text-1 {
+        font-size: 36px;
+    }
+
+    .text-2 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+
+    .text-3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .edit-1 {
+        background-image: url("Img/Image-2.png");
+        background-size: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+}
